@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+      <remote name="lab"
+          fetch="https://github.com/Muichiro-s-Lab" />
+	<remote name="clang"  
+        fetch="https://gitlab.com/ImSurajxD"/>
+ 
+<project path="device/xiaomi/surya" name="android_device_xiaomi_surya.git" remote="lab" revision="lineage-19.1" clone-depth="1" />
+<project path="vendor/xiaomi/surya" name="android_vendor_xiaomi_surya.git" remote="lab" revision="lineage-19.1" clone-depth="1" />
+<project path="kernel/xiaomi/surya" name="android_kernel_xiaomi_surya.git" remote="lab" revision="lineage-19.1" clone-depth="1" />
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" /> 
+</manifest>
